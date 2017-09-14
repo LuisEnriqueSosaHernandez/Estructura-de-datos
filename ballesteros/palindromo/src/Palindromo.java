@@ -58,6 +58,7 @@ public class Palindromo {
             
             resp2="";
             System.out.println("Deseas repetir el proceso n/no");
+            resp=l.next();
         }while(resp.equals("n"));
     }
 }
